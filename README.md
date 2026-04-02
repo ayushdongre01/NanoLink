@@ -7,14 +7,6 @@ NanoLink is a lightweight URL shortener built with Next.js, TypeScript, and Mong
 👉 Try the app here:  
 🔗 [https://nanolk.vercel.app/](https://nanolk.vercel.app/)
 
-## Features
-
-- Create short links with a custom slug.
-- Redirect short URLs to their saved destination.
-- Clean landing page, about page, contact page, and GitHub page.
-- MongoDB-backed storage for short-link records.
-- Modern UI built with Next.js App Router and Tailwind CSS.
-
 ## Screenshots
 
 ### Home Page
@@ -23,6 +15,15 @@ NanoLink is a lightweight URL shortener built with Next.js, TypeScript, and Mong
 
 ### Shorten Page
 ![Shorten page](https://github.com/ayushdongre01/NanoLink/blob/main/images/3.png)
+
+
+## Features
+
+- Create short links with a custom slug.
+- Redirect short URLs to their saved destination.
+- Clean landing page, about page, contact page, and GitHub page.
+- MongoDB-backed storage for short-link records.
+- Modern UI built with Next.js App Router and Tailwind CSS.
 
 
 ## Tech Stack
@@ -133,7 +134,3 @@ Each record contains:
 - If startup fails with a MongoDB error, verify `MONGODB_URI` and that the database is reachable.
 - If generated links point to the wrong host, check `NEXT_PUBLIC_HOST`.
 - If a short link redirects to the home page, confirm the slug exists in the `url` collection.
-
-## License
-
-Add a license file if you plan to distribute NanoLink publicly.
