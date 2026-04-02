@@ -1,6 +1,8 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  turbopack: {},
+
   /** Cuts peak RAM during webpack dev compile on low-memory hosts (VMs, laptops). */
   webpack: (config, { dev }) => {
     if (dev) {
