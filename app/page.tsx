@@ -86,7 +86,7 @@ export default function Home() {
               />
             </div>
             <p className="mt-6 text-center text-sm font-medium text-violet-800/90">
-              Brand illustration — your links, your story.
+              Create short, memorable links in seconds.
             </p>
           </div>
         </div>
