@@ -3,7 +3,7 @@ import PageHeader from "@/components/PageHeader"
 import PageShell from "@/components/PageShell"
 
 const repoUrl =
-  process.env.NEXT_PUBLIC_GITHUB_REPO ?? "https://github.com"
+  process.env.NEXT_PUBLIC_GITHUB_REPO ?? "https://github.com/ayushdongre01/"
 
 export default function GitHubPage() {
   return (
@@ -21,14 +21,6 @@ export default function GitHubPage() {
               GH
             </div>
             <h2 className="mt-6 text-xl font-bold text-violet-950">Source &amp; issues</h2>
-            <p className="mt-3 text-violet-900/80">
-              Set{" "}
-              <code className="rounded bg-violet-100 px-2 py-0.5 text-sm text-violet-900">
-                NEXT_PUBLIC_GITHUB_REPO
-              </code>{" "}
-              in <code className="rounded bg-violet-100 px-2 py-0.5 text-sm">.env.local</code>{" "}
-              to point this button at your real repository.
-            </p>
             <a
               href={repoUrl}
               target="_blank"
