@@ -17,14 +17,13 @@ NanoLink is a lightweight URL shortener built with Next.js, TypeScript, and Mong
 
 ## Screenshots
 
-```md
 ### Home Page
 ![Home page 1](https://github.com/ayushdongre01/NanoLink/blob/main/images/1.png)
 ![Home page 2](https://github.com/ayushdongre01/NanoLink/blob/main/images/2.png)
 
 ### Shorten Page
 ![Shorten page](https://github.com/ayushdongre01/NanoLink/blob/main/images/3.png)
-```
+
 
 ## Tech Stack
 
