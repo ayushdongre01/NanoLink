@@ -1,7 +1,13 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  /** Cuts peak RAM during webpack dev compile on low-memory hosts (VMs, laptops). */
+  webpack: (config, { dev }) => {
+    if (dev) {
+      config.parallelism = 4;
+    }
+    return config;
+  },
 };
 
 export default nextConfig;
