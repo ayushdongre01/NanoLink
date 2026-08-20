@@ -1,3 +1,5 @@
+console.log("DEBUG MONGO URI LENGTH:", process.env.MONGODB_URI?.length)
+console.log("DEBUG MONGO URI HAS PORT PATTERN:", /:\d+@|:\d+\//.test(process.env.MONGODB_URI ?? ""))
 import { MongoClient } from "mongodb"
 
 /**
